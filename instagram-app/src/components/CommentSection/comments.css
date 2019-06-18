@@ -2,4 +2,5 @@
         background-color: sandybrown;
         border: 3px solid black;
         border-radius: 5px;
+        max-width:750px;
 }
