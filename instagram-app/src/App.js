@@ -6,14 +6,12 @@ import Search from './components/SearchBar/search';
 
 
 class App extends React.Component {
-  constructor() {
-    super();
-    this.state = {
+
+    state = {
       data: []
     };
-    console.log(this.state);
-
-  }
+    //console.log(this.state);
+  
 
  componentDidMount() {
    this.setState({

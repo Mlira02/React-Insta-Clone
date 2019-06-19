@@ -1,6 +1,9 @@
 import React from 'react';
 import './posts.css';
 import Comments from '../CommentSection/comments';
+import { FaRegHeart } from 'react-icons/fa';
+import { FiMessageCircle } from 'react-icons/fi';
+
 
 function Posts (props) {
     console.log(props);
@@ -13,7 +16,15 @@ function Posts (props) {
                         <h3 className="userN">{posts.username}</h3>
                     </div>
                         <img src={posts.imageUrl}></img>
-                        <Comments />
+                    <div className="bottomIcon">
+                        <a href="#"><FaRegHeart /></a>
+                        <a href="#"><FiMessageCircle /></a>
+                    </div>
+                    {posts.likes} likes
+                    <Comments
+                        comments={posts.comments}
+                        timeStamp={posts.timeStamp}
+                        />
                 </div>
             ))}
         </>
