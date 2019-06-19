@@ -1,13 +1,15 @@
 import React from 'react';
 import './comments.css';
 
-/* function Comments () {
-    return(
-        <div className='comments'>
-            <h3></h3>
-        </div>
-    )
+class Comments extends React.Component {
+    constructor(props) {
+        super(props);
+    }
+    render() { 
+        return ( 
+            <div>comments here!</div>
+         );
+    }
 }
-
-
-export default Comments; */
+ 
+export default Comments;

@@ -1,6 +1,6 @@
 import React from 'react';
 import './posts.css';
-//import Comments from '../CommentSection/comments';
+import Comments from '../CommentSection/comments';
 
 function Posts (props) {
     console.log(props);
@@ -13,6 +13,7 @@ function Posts (props) {
                         <h3 className="userN">{posts.username}</h3>
                     </div>
                         <img src={posts.imageUrl}></img>
+                        <Comments />
                 </div>
             ))}
         </>
