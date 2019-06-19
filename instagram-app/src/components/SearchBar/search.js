@@ -9,7 +9,7 @@ function Search () {
         <div className='search'>
             <header>
                 <a href='#'><FaInstagram /></a>
-                <h2>Instagram</h2>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1920px-Instagram_logo.svg.png" alt="insta name" className="igName" />
                 <input type="text" placeholder='Search'></input>
                 <a href="#"> <FaRegCompass /> </a>
                 <a><FaRegHeart /></a>

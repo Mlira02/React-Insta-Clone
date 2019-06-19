@@ -1,7 +1,7 @@
 import React from 'react';
 import './comments.css';
 
-function Comments () {
+/* function Comments () {
     return(
         <div className='comments'>
             <h3></h3>
@@ -10,4 +10,4 @@ function Comments () {
 }
 
 
-export default Comments;
+export default Comments; */
