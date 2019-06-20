@@ -1,5 +1,7 @@
 import React from 'react';
 import './comments.css';
+// import styled from 'styled-components';
+import {Comment} from '../styledComponents'
 
 class Comments extends React.Component {
 state = {
@@ -28,15 +30,16 @@ changeHandler = event => {
            <div>
                {this.state.comments.map(comment => {
                    return (
-                       <>
+                       <Comment>
                        <h3>{comment.username}</h3>
                        <p>{comment.text}</p>
-                       </>
+                       </Comment>
                    )
                 })}
                 <p className='timeStamp'>{this.props.timestamp}</p>
                <form onSubmit={this.addNewComment}>
                 <input type='text'
+                    className="addComment"
                     name='newComment'
                     value={this.state.newComment}
                     placeholder='Add a comment...'

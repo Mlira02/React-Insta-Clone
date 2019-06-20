@@ -8,12 +8,12 @@ function Search () {
     return(
         <div className='search'>
             <header>
-                <a href='#'><FaInstagram /></a>
+                <a href='#' className="instaLogo"><FaInstagram /></a>
                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1920px-Instagram_logo.svg.png" alt="insta name" className="igName" />
                 <input type="text" placeholder='Search'></input>
-                <a href="#"><FaRegCompass /></a>
-                <a href="#"><FaRegHeart /></a>
-                <a href="#"><IoMdPerson /></a>
+                <a href="#" className="searchLogo"><FaRegCompass /></a>
+                <a href="#" className="searchLogo"><FaRegHeart /></a>
+                <a href="#" className="searchLogo"><IoMdPerson /></a>
             </header>
         </div>
     )

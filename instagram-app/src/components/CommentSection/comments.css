@@ -4,3 +4,20 @@
         border-radius: 5px;
         max-width:750px;
 }
+
+form {
+        background-color: white;
+}
+
+.addComment {
+        color: grey;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        border-top: 1px solid lightgray;
+        border-bottom: 0;
+        border-right: 0;
+        border-left: 0;
+        margin-top: 0px;
+        text-align: left;
+}
