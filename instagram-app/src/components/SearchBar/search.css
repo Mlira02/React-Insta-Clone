@@ -1,0 +1,45 @@
+.search {
+    border: 1px solid lightgrey;
+    border-radius: 5px;
+    width:900px;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+    font-size: 1.25rem;
+}
+
+.igName {
+    height: 50px;
+    width: 150px;
+}
+
+.instaLogo{
+    font-size: 2rem;
+}
+
+.instaLogo::after {
+    content: '|';
+}
+
+.searchLogo {
+    margin:5px;
+    font-size: 2rem;
+}
+
+input {
+    height: 25px;
+    width:200px;
+    margin-bottom: 10px; 
+    background-color: lightgray;
+    text-align: center;
+    font-size: 1rem
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
